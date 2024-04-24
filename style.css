@@ -1,0 +1,39 @@
+.pequeno{
+    width: 50px;
+    height: 100px;
+    background-color: gold;
+}
+
+.medio{
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+}
+
+.grande{
+    width: 200px;
+    height: 100px;
+    background-color: salmon;
+}
+.flexbox_container{
+    display: flex;
+    gap: 10px;
+}
+#box1{
+    background-color: lightgreen;
+}
+#box2{
+    background-color: orange;
+    justify-content: center;
+}
+#box3{
+    background-color: orange;
+    justify-content: space-between;
+}
+#box4{
+    background-color: lightgreen;
+    justify-content: space-around;
+}
+h2{
+    font-size: 50px;
+}
