@@ -19,6 +19,11 @@
     display: flex;
     gap: 10px;
 }
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+
 #box1{
     background-color: lightgreen;
 }
@@ -34,6 +39,18 @@
     background-color: lightgreen;
     justify-content: space-around;
 }
+#box5{
+    background-color: lightgreen;
+    justify-content: space-between;
+}
+
 h2{
     font-size: 50px;
+}
+div{
+    text-align: center;
+    
+}
+.meio{
+    align-items: flex-end;
 }
