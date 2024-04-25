@@ -24,6 +24,7 @@
     flex-direction: column;
 }
 
+
 #box1{
     background-color: lightgreen;
 }
@@ -44,6 +45,14 @@
     justify-content: space-between;
     align-items: center;
 }
+#box6{
+    background-color: lightgreen;
+    justify-content: space-between;
+}
+#box7{
+    background-color: lightgreen;
+    justify-content: space-between;
+}
 
 h2{
     font-size: 50px;
@@ -52,4 +61,10 @@ div{
     text-align: center;
 
     
+}
+#p1{
+    justify-content: end;
+}
+#g1{
+    display: flex;
 }
