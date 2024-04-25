@@ -2,6 +2,8 @@
     width: 50px;
     height: 100px;
     background-color: gold;
+    display: flex;
+    
 }
 
 .medio{
@@ -19,52 +21,79 @@
     display: flex;
     gap: 10px;
 }
+.texto-centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
 .vertical{
     display: flex;
     flex-direction: column;
 }
-
-
 #box1{
     background-color: lightgreen;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 4px;
 }
 #box2{
     background-color: orange;
     justify-content: center;
+    border: solid;
+    border-color: orange;
+    border-width: 4px;
 }
 #box3{
     background-color: orange;
     justify-content: space-between;
+    border: solid;
+    border-color: orange;
+    border-width: 4px;
 }
 #box4{
     background-color: lightgreen;
     justify-content: space-around;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 4px;
 }
 #box5{
     background-color: lightgreen;
     justify-content: space-between;
     align-items: center;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 4px;
 }
 #box6{
     background-color: lightgreen;
     justify-content: space-between;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 4px;
 }
-#box7{
+.box7{
     background-color: lightgreen;
     justify-content: space-between;
+    border: solid;
+    border-color: lightgreen;
+    border-width: 4px;
+}
+#box8{
+    background-color: lightgreen;
+    justify-content: space-around;
+    gap: 10px;
+    
 }
 
 h2{
     font-size: 50px;
 }
-div{
-    text-align: center;
-
-    
-}
 #p1{
     justify-content: end;
 }
-#g1{
+.g1{
     display: flex;
+    gap: 10px;
 }
