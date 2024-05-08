@@ -1,5 +1,6 @@
 .flexbox_container{
-    display: flex;          
+    display: flex;
+    
 }
 
 .itemP{
@@ -21,9 +22,7 @@
 }
 #box1{
     flex-direction: column;
-}
-#box1{
-    flex-direction: column;
+    justify-content: space-between ;
 }
 #box2{
     justify-content: space-evenly;
