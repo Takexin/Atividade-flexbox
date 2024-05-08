@@ -30,9 +30,6 @@
 #box3{
     align-items: center;
 }
-
-
-
 .vertical{
     display: flex;
     flex-direction: column;
